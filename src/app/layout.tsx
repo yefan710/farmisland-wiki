@@ -24,5 +24,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       { "@type": "VideoGame", name: site.gameName, url: site.gameUrl, gamePlatform: "Roblox", genre: site.genre, author: { "@type": "Organization", name: site.developer } },
     ],
   };
-  return <html lang="en"><body><JsonLd data={schema} /><Header /><main>{children}</main><Footer /></body></html>;
+  return <html lang="en"><head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X8J99Y0S9J" />
+    <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});gtag('js',new Date());gtag('config','G-X8J99Y0S9J');` }} />
+  </head><body><JsonLd data={schema} /><Header /><main>{children}</main><Footer /></body></html>;
 }
