@@ -1,0 +1,20 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { GuideRail } from "@/components/GuideRail";
+import { JsonLd } from "@/components/JsonLd";
+import { PageHero } from "@/components/PageHero";
+import { SourceNote } from "@/components/SourceNote";
+import { communityReports } from "@/data/site";
+import { breadcrumbSchema, webPageSchema } from "@/lib/seo";
+
+export const metadata: Metadata = { title: "Farm an Island Seeds, Crops and XL Plants", description: "See the Farm an Island crop loop, the current crop-table gaps, and the dated external record behind the term XL Plant.", alternates: { canonical: "/seeds-and-crops" } };
+
+export default function CropsPage() { return <>
+  <JsonLd data={[webPageSchema({ name: "Farm an Island Seeds, Crops and XL Plants", description: metadata.description as string, path: "/seeds-and-crops" }), breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Seeds and crops", path: "/seeds-and-crops" }])]} />
+  <PageHero eyebrow="Seeds and crops" title="Grow first, compare dated values later" answer="Planting seeds and harvesting crops are part of the game loop. This revision has not yet processed a complete same-build crop list, value table, or XL rule set from the available web, video, and screenshot sources." nextHref="#confirmed" nextLabel="See the crop loop" image={{ src: "/hero-bg.jpg", alt: "Official Farm an Island artwork showing planted areas on an island" }} status="Field extraction pending" />
+  <section className="section"><div className="page-shell content-layout"><div>
+    <article className="content-panel" id="confirmed"><span className="eyebrow">Known role</span><h2>Crops start the money loop</h2><p>The Roblox description tells players to plant seeds and harvest crops. It then points to the Bank, where harvested crops can be traded for cash.</p><ol className="number-list"><li>Plant seeds on the island.</li><li>Harvest the resulting crops.</li><li>Take harvested crops to the Bank for cash.</li><li>Use the cash in the wider expansion loop.</li></ol><SourceNote title="System-level fact">Crop names, growth times, and sale values can come from competitor pages, videos, screenshots, or community guides. They need to be extracted into one dated field set before this page publishes a table.</SourceNote></article>
+    <article className="content-panel" id="catalog"><span className="eyebrow">Data status</span><h2>No processed crop table yet</h2><table className="data-table"><thead><tr><th>Question</th><th>Status</th><th>Current answer</th></tr></thead><tbody><tr><td>Which crops exist?</td><td><span className="tag tag-unknown">Not processed</span></td><td>No complete dated catalog is published here yet.</td></tr><tr><td>Which crop pays most?</td><td><span className="tag tag-unknown">Not processed</span></td><td>No same-build value table supports a ranking yet.</td></tr><tr><td>How long does each crop take?</td><td><span className="tag tag-unknown">Not processed</span></td><td>No dated timing table is available yet.</td></tr></tbody></table></article>
+    <article className="content-panel" id="xl"><span className="eyebrow">XL plants</span><h2>A dated external term with open mechanics</h2><p>A community video title uses the term XL Plant. That supports the term at the observed date. The title does not contain the growth condition, chance, multiplier, or bonus fields.</p><SourceNote tone="reported" title={communityReports.xl.label}><a className="text-link" href={communityReports.xl.href} target="_blank" rel="noreferrer">Open the observed video result</a>. {communityReports.xl.observedAt}. {communityReports.xl.note}</SourceNote><div className="next-card"><h3>Ready to turn crops into cash?</h3><p>The Bank has a known role even though individual crop values have not been processed.</p><Link className="button button-action" href="/bank-and-money">Continue to Bank and money</Link></div></article>
+  </div><GuideRail links={[{ href: "#confirmed", label: "Crop loop" }, { href: "#catalog", label: "Crop table status" }, { href: "#xl", label: "XL plant record" }]} /></div></section>
+</>; }
