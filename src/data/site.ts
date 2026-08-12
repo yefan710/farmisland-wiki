@@ -20,7 +20,7 @@ export const site = {
   ],
 } as const;
 
-export const confirmedSystems = [
+export const gameplayLoop = [
   { step: "01", title: "Plant", detail: "Plant seeds on your island." },
   { step: "02", title: "Harvest", detail: "Collect crops when they are ready." },
   { step: "03", title: "Use the Bank", detail: "Trade harvested crops for cash." },
@@ -32,22 +32,22 @@ export const homeRoutes = [
   {
     label: "Status",
     question: "What is the current code status?",
-    explanation: "See two codes that worked in an Aug 7 target-game capture, their rewards and the in-game Redeem path.",
-    value: "Use dated codes, then recheck the current result",
+    explanation: "Try two codes that last worked on Aug 7, see their rewards and follow the in-game Redeem path.",
+    value: "Know the reward and where to enter each code",
     href: "/codes",
   },
   {
     label: "First session",
     question: "What should I do first?",
     explanation: "Follow the official loop from seeds and crops to the Bank, cash and island expansion.",
-    value: "A short route through the confirmed systems",
+    value: "A short route through planting, the Bank and expansion",
     href: "/beginner-guide",
   },
   {
     label: "Crops",
     question: "What is known about seeds and XL plants?",
-    explanation: "See five crops observed in dated footage and what one fertilizer-to-XL Durian demonstration proves.",
-    value: "Known crop cards without a guessed profit ranking",
+    explanation: "See the available details for five crops and watch fertilizer turn one Durian into an XL Durian.",
+    value: "Crop details plus a playable XL example",
     href: "/seeds-and-crops",
   },
   {
@@ -60,7 +60,7 @@ export const homeRoutes = [
   {
     label: "Expansion",
     question: "When should I look at more land?",
-    explanation: "Compare your cash with early pad costs visible in the Aug 5 tutorial.",
+    explanation: "Compare your cash with early pad costs last checked on Aug 5.",
     value: "Dated costs from 65 to 220 cash",
     href: "/land-expansion",
   },
@@ -68,54 +68,12 @@ export const homeRoutes = [
     label: "Helpers",
     question: "What do chickens do?",
     explanation: "Read the Common Chicken card, its visible 2x Power and the listed XL Chicken Hunter pass price.",
-    value: "Known card fields with the formula left open",
+    value: "Understand the card before choosing a pass",
     href: "/chickens",
   },
 ] as const;
 
-export const communityReports = {
-  codes: [
-    {
-      label: "Community videos reporting codes",
-      observedAt: "Aug 11, 2026",
-      href: "https://www.youtube.com/watch?v=6uSuiCqsgUg",
-      note: "The video shows two successful redemptions in the target game. Those results belong to the Aug 7 capture and do not prove that either code still works today.",
-    },
-    {
-      label: "Reddit post reporting THANKYOU",
-      observedAt: "Published Aug 3, 2026",
-      href: "https://www.reddit.com/r/RobloxCodesUnite/comments/1vejcvp/farm_an_island_codes_for_roblox/",
-      note: "This post lists THANKYOU. A target-game video published Aug 7 also shows the code awarding 2 Free Seed Packs.",
-    },
-  ],
-  xl: {
-    label: "Community video using the term XL Plant",
-    observedAt: "Observed Aug 11, 2026",
-    href: "https://www.youtube.com/watch?v=Zj7CVlpJmvs",
-    note: "A target-game video shows fertilizer being applied before a Durian card changes to XL Durian. It does not prove a guaranteed recipe or probability.",
-  },
+export const videoDemos = {
+  codes: { videoId: "6uSuiCqsgUg", startAt: 60 },
+  xlDurian: { videoId: "Zj7CVlpJmvs", startAt: 0 },
 } as const;
-
-export const sourceGroups = [
-  {
-    title: "Roblox records",
-    status: "Current or dated facts",
-    items: [
-      { label: "Farm an Island experience", href: site.gameUrl, detail: "Correct place, developer and player destination" },
-      { label: "Roblox game API", href: `https://games.roblox.com/v1/games?universeIds=${site.universeId}`, detail: "Identity, description and dated metrics" },
-      { label: "Roblox media API", href: `https://games.roblox.com/v2/games/${site.universeId}/media`, detail: "Official experience images" },
-      { label: "Roblox game passes API", href: `https://apis.roblox.com/game-passes/v1/universes/${site.universeId}/game-passes?passView=Full&pageSize=100`, detail: "XL pass names, IDs, listed Robux prices and sale status checked Aug 12, 2026" },
-    ],
-  },
-  {
-    title: "External web records",
-    status: "Facts limited to the fields visible in each source",
-    items: [
-      { label: "Beginner gameplay guide", href: "https://www.youtube.com/watch?v=NfPFSo07V4w", detail: "Dated crop, Bank, land and Chicken UI fields from the target game" },
-      { label: "Codes gameplay video", href: communityReports.codes[0].href, detail: "Two successful code results and the in-game redemption path in an Aug 7 capture" },
-      { label: "Second codes gameplay video", href: "https://www.youtube.com/watch?v=xT49YALRaPE", detail: "A second target-game codes record used for identity and topic cross-checking" },
-      { label: "Reddit THANKYOU post", href: communityReports.codes[1].href, detail: "A separate dated listing of the THANKYOU string" },
-      { label: "XL Plant gameplay video", href: communityReports.xl.href, detail: "Dated fertilizer demonstration and visible Durian/XL Durian card fields" },
-    ],
-  },
-] as const;

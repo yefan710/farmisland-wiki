@@ -4,16 +4,14 @@
     {
       "code": "THANKYOU",
       "reward": "2 Free Seed Packs",
-      "workedInCaptureDate": "2026-08-07",
-      "status": "Worked in a dated gameplay capture",
-      "sourceUrl": "https://www.youtube.com/watch?v=6uSuiCqsgUg"
+      "lastWorked": "2026-08-07",
+      "status": "Try in the current game"
     },
     {
       "code": "ILOVEGEARS",
       "reward": "3 Free Gears",
-      "workedInCaptureDate": "2026-08-07",
-      "status": "Worked in a dated gameplay capture",
-      "sourceUrl": "https://www.youtube.com/watch?v=6uSuiCqsgUg"
+      "lastWorked": "2026-08-07",
+      "status": "Try in the current game"
     }
   ],
   "codeRedemptionPath": ["Shop", "Exclusive Shop", "Codes", "Redeem"],
@@ -62,9 +60,8 @@
     "state": "Normal",
     "beforeDisplay": "97.93M",
     "afterDisplay": "489.64M",
-    "methodShown": "The creator repeatedly applied fertilizer before the card changed to XL Durian.",
-    "limit": "One video does not prove a guaranteed recipe, a fertilizer count, an XL probability, or a universal multiplier.",
-    "sourceDate": "2026-07-25",
-    "sourceUrl": "https://www.youtube.com/watch?v=Zj7CVlpJmvs"
+    "methodShown": "In the example, fertilizer was applied repeatedly before the card changed to XL Durian.",
+    "limit": "The required fertilizer count, XL chance, and whether the displayed increase always applies are not known.",
+    "sourceDate": "2026-07-25"
   }
 }
