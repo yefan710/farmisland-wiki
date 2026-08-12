@@ -30,7 +30,7 @@ export default function HomePage() {
             <Link className="button button-quiet" href="/codes">Check code status</Link>
             <a className="button button-quiet" href={site.gameUrl} target="_blank" rel="noreferrer">Play on Roblox</a>
           </div>
-          <div className="hero-proof"><span>Boiler Games</span><span>Place ID {site.placeId}</span><span>Checked Aug 11, 2026</span></div>
+          <div className="hero-proof"><span>Boiler Games</span><span>Place ID {site.placeId}</span><span>Checked Aug 12, 2026</span></div>
         </div>
       </section>
 
@@ -69,11 +69,11 @@ export default function HomePage() {
         <div className="page-shell">
           <div className="section-heading">
             <div><span className="eyebrow">Useful game data</span><h2>What is confirmed today</h2></div>
-            <p>The experience description confirms the broad systems. Exact prices, rewards, rates and crop tables stay unpublished until they can be checked.</p>
+            <p>Use the official loop first, then open the dated field tables for codes, land, Bank screens, crops, chickens and XL observations.</p>
           </div>
           <div className="feature-grid">
             {confirmedSystems.map((item) => <article className="feature-card" key={item.step}><span>Step {item.step}</span><strong>{item.title}</strong><p>{item.detail}</p></article>)}
-            <article className="feature-card"><span>Official snapshot</span><strong>{site.visits.toLocaleString("en-US")} visits</strong><p>Roblox game data checked Aug 11, 2026. Player and favorite totals can change.</p></article>
+            <article className="feature-card"><span>Official snapshot</span><strong>{site.visits.toLocaleString("en-US")} visits</strong><p>Roblox game data checked Aug 12, 2026. Player and favorite totals can change.</p></article>
           </div>
         </div>
       </section>
@@ -86,8 +86,8 @@ export default function HomePage() {
           </div>
           <div className="source-grid">
             <article className="source-card"><span className="tag tag-checked">Checked</span><h2>Official game loop</h2><p>Identity, description and metrics come from Roblox game data for universe {site.universeId}.</p><Link href="/sources">See the source policy</Link></article>
-            <article className="source-card"><span className="tag tag-reported">Reported</span><h2>Code chatter</h2><p>Community pages report code-related information, but no code is listed here as active without an in-game check.</p><Link href="/codes">Review code status</Link></article>
-            <article className="source-card"><span className="tag tag-unknown">Unknown</span><h2>Detailed values</h2><p>Crop prices, land costs, chicken effects and XL plant mechanics are not confirmed in the available official data.</p><Link href="/updates">See the latest check</Link></article>
+            <article className="source-card"><span className="tag tag-reported">Dated result</span><h2>Codes and rewards</h2><p>Two successful redemptions show the exact rewards in an Aug 7 capture. Their current activity still needs an in-game recheck.</p><Link href="/codes">Review code status</Link></article>
+            <article className="source-card"><span className="tag tag-unknown">Field limits shown</span><h2>Gameplay values</h2><p>Land costs, Bank screens, crop cards, Chicken Power and one XL Durian example are published with dates and without a guessed formula.</p><Link href="/seeds-and-crops">Open the field tables</Link></article>
           </div>
           <SourceNote title="How this site handles uncertainty">A dated community report can show that players are discussing a topic. It does not turn the reported detail into a confirmed game fact.</SourceNote>
         </div>

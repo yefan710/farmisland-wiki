@@ -48,7 +48,7 @@ const gate1Files = [
 const publicSourceFiles = [
   ...walk('src/app', new Set(['.ts', '.tsx'])),
   ...walk('src/components', new Set(['.ts', '.tsx'])),
-  ...walk('src/data', new Set(['.ts', '.tsx'])),
+  ...walk('src/data', new Set(['.ts', '.tsx', '.json'])),
   ...walk('src/lib', new Set(['.ts', '.tsx'])),
 ];
 

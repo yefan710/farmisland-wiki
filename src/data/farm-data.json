@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-08-12",
+  "codes": [
+    {
+      "code": "THANKYOU",
+      "reward": "2 Free Seed Packs",
+      "workedInCaptureDate": "2026-08-07",
+      "status": "Worked in a dated gameplay capture",
+      "sourceUrl": "https://www.youtube.com/watch?v=6uSuiCqsgUg"
+    },
+    {
+      "code": "ILOVEGEARS",
+      "reward": "3 Free Gears",
+      "workedInCaptureDate": "2026-08-07",
+      "status": "Worked in a dated gameplay capture",
+      "sourceUrl": "https://www.youtube.com/watch?v=6uSuiCqsgUg"
+    }
+  ],
+  "codeRedemptionPath": ["Shop", "Exclusive Shop", "Codes", "Redeem"],
+  "observedCrops": [
+    { "name": "Carrot", "knownFields": "Planted and harvested during the tutorial", "sourceDate": "2026-08-05" },
+    { "name": "Tomato", "knownFields": "Named and planted during the tutorial", "sourceDate": "2026-08-05" },
+    { "name": "Potato", "knownFields": "Common, Level 1, Normal; card showed 18", "sourceDate": "2026-08-05" },
+    { "name": "Bell Pepper", "knownFields": "A tutorial task asked for a Snow mutation", "sourceDate": "2026-08-05" },
+    { "name": "Durian", "knownFields": "Transcendent, Level 1, Normal in the dated XL demonstration", "sourceDate": "2026-07-25" }
+  ],
+  "bankExamples": [
+    {
+      "label": "Average deal shown in the Bank",
+      "value": "7",
+      "context": "The panel showed a 15 second countdown, so this was a changing deal, not a fixed crop price.",
+      "sourceDate": "2026-08-05"
+    },
+    {
+      "label": "Completed batch transfer",
+      "value": "513",
+      "context": "The crop mix and quantity were not visible, so this cannot be converted into a per-crop value.",
+      "sourceDate": "2026-08-05"
+    }
+  ],
+  "landCosts": [
+    { "label": "Tutorial-highlighted expansion pad", "cost": 65, "sourceDate": "2026-08-05" },
+    { "label": "Adjacent early expansion pad", "cost": 110, "sourceDate": "2026-08-05" },
+    { "label": "Four pads visible together", "cost": "100, 130, 170, 220", "sourceDate": "2026-08-05" }
+  ],
+  "chicken": {
+    "name": "Chicken",
+    "rarity": "Common",
+    "displayedPower": "2x",
+    "knownRole": "The tutorial says a chicken helps harvest crops.",
+    "formulaStatus": "The card did not explain whether 2x changes amount, speed, range, or another harvest field.",
+    "sourceDate": "2026-08-05"
+  },
+  "gamePasses": [
+    { "name": "XL Seed Hunter", "id": 1885846980, "priceRobux": 999, "isForSale": true },
+    { "name": "XL Chicken Hunter", "id": 1882433093, "priceRobux": 1499, "isForSale": true }
+  ],
+  "xlObservation": {
+    "crop": "XL Durian",
+    "rarity": "Transcendent",
+    "level": 1,
+    "state": "Normal",
+    "beforeDisplay": "97.93M",
+    "afterDisplay": "489.64M",
+    "methodShown": "The creator repeatedly applied fertilizer before the card changed to XL Durian.",
+    "limit": "One video does not prove a guaranteed recipe, a fertilizer count, an XL probability, or a universal multiplier.",
+    "sourceDate": "2026-07-25",
+    "sourceUrl": "https://www.youtube.com/watch?v=Zj7CVlpJmvs"
+  }
+}
