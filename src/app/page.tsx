@@ -4,7 +4,7 @@ import Link from "next/link";
 import { JsonLd } from "@/components/JsonLd";
 import { LiveGameStats } from "@/components/LiveGameStats";
 import { RouteCard } from "@/components/RouteCard";
-import { gameplayLoop, homeRoutes, site } from "@/data/site";
+import { formatGameDate, gameplayLoop, homeRoutes, site } from "@/data/site";
 import { webPageSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -29,7 +29,7 @@ export default function HomePage() {
             <Link className="button button-quiet" href="/codes">Check code status</Link>
             <a className="button button-quiet" href={site.gameUrl} target="_blank" rel="noreferrer">Play on Roblox</a>
           </div>
-          <div className="hero-proof"><span>Boiler Games</span><span>Place ID {site.placeId}</span><span>Checked Aug 17, 2026</span></div>
+          <div className="hero-proof"><span>Boiler Games</span><span>Place ID {site.placeId}</span><span>Stats checked {formatGameDate(site.checkedAt)}</span></div>
         </div>
       </section>
 

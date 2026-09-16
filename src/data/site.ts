@@ -9,6 +9,8 @@ export const site = {
   genre: "Simulation / Tycoon",
   gameUrl: "https://www.roblox.com/games/78769336859161/Farm-an-Island",
   checkedAt: "2026-08-24T10:03:06+08:00",
+  updateCheckedAt: "2026-09-16",
+  lastGameUpdate: "2026-09-09",
   playing: 834,
   favorites: 20047,
   visits: 5749660,
@@ -78,3 +80,7 @@ export const videoDemos = {
   xlDurian: { videoId: "Zj7CVlpJmvs", startAt: 0 },
 } as const;
 
+
+export function formatGameDate(value: string): string {
+  return new Date(value).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+}

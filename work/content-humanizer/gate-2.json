@@ -1,7 +1,7 @@
 {
   "status": "pass",
-  "reviewedAt": "2026-08-31T11:53:31+08:00",
-  "contentFingerprint": "sha256:35bbf63c5ddb64cedbf5e290f4c35e4f612e5fc8749f0da63fdf66ebbe05f113",
+  "reviewedAt": "2026-09-16T03:12:51.101Z",
+  "contentFingerprint": "sha256:0937397b12fcc50f6aa2f0f748e8a7adf354b38bf0433efd11eb37b2d100a563",
   "pagesReviewed": 12,
   "checks": {
     "allRoutesReviewed": true,
@@ -127,5 +127,5 @@
       "factsMatchGate1": true
     }
   ],
-  "lineEndingNormalization": "LF-only clean checkout; source content equivalence recorded during baseline admission"
+  "lineEndingNormalization": "LF clean checkout; all source semantics match independently reviewed working tree"
 }
