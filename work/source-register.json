@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.1",
+  "checkedAt": "2026-08-17T11:30:06+08:00",
+  "sources": [
+    {
+      "id": "roblox-game-api",
+      "kind": "official Roblox API",
+      "url": "https://games.roblox.com/v1/games?universeIds=10349044906",
+      "checkedAt": "2026-08-17T11:30:06+08:00",
+      "use": "identity, developer, description, genre, current players, visits and favorites"
+    },
+    {
+      "id": "roblox-group-api",
+      "kind": "official Roblox API",
+      "url": "https://groups.roblox.com/v1/groups/35532215",
+      "checkedAt": "2026-08-17T11:30:06+08:00",
+      "use": "developer group identity and current group shout status"
+    },
+    {
+      "id": "roblox-media-api",
+      "kind": "official Roblox API",
+      "url": "https://games.roblox.com/v2/games/10349044906/media",
+      "checkedAt": "2026-08-11T19:02:00+08:00",
+      "use": "official game imagery asset IDs"
+    },
+    {
+      "id": "roblox-experience",
+      "kind": "official experience page",
+      "url": "https://www.roblox.com/games/78769336859161/Farm-an-Island",
+      "checkedAt": "2026-08-11T19:02:00+08:00",
+      "use": "player destination and final check before spending Robux"
+    },
+    {
+      "id": "roblox-game-passes-api",
+      "kind": "official Roblox API",
+      "url": "https://apis.roblox.com/game-passes/v1/universes/10349044906/game-passes?passView=Full&pageSize=100",
+      "checkedAt": "2026-08-17T11:30:06+08:00",
+      "use": "XL Seed Hunter and XL Chicken Hunter names, IDs, sale status and listed Robux prices"
+    },
+    {
+      "id": "demand-research",
+      "kind": "internal research artifact",
+      "paths": [
+        "../../work/farm-an-island-demand-research-20260811.md",
+        "../../work/farm-an-island-demand-research-20260811.json"
+      ],
+      "checkedAt": "2026-08-11T18:47:00+08:00",
+      "use": "query and topic discovery; individual cited web pages may become fact sources after field extraction"
+    },
+    {
+      "id": "google-trends-visible",
+      "kind": "browser-visible Google Trends snapshot",
+      "paths": [
+        "../../work/roblox-two-game-trends-visible-browser-20260811.json"
+      ],
+      "checkedAt": "2026-08-11T18:38:00+08:00",
+      "use": "route priority only; normalized interest is not absolute volume"
+    },
+    {
+      "id": "youtube-beginner-report",
+      "kind": "community video search result",
+      "url": "https://www.youtube.com/watch?v=NfPFSo07V4w",
+      "observedAt": "2026-08-11",
+      "publishedLabelAtObservation": "6 days ago",
+      "use": "dated target-game facts for crop names, Bank UI, land costs, Chicken role and card fields",
+      "processingStatus": "fields_extracted_and_verified_with_open_formulas"
+    },
+    {
+      "id": "youtube-xl-report",
+      "kind": "community video search result",
+      "url": "https://www.youtube.com/watch?v=Zj7CVlpJmvs",
+      "observedAt": "2026-08-11",
+      "publishedLabelAtObservation": "2 weeks ago",
+      "use": "dated target-game fertilizer demonstration and Durian/XL Durian card fields",
+      "processingStatus": "fields_extracted_probability_and_guaranteed_method_open"
+    },
+    {
+      "id": "youtube-codes-report-1",
+      "kind": "community video search result",
+      "url": "https://www.youtube.com/watch?v=6uSuiCqsgUg",
+      "observedAt": "2026-08-11",
+      "publishedLabelAtObservation": "3 days ago",
+      "use": "dated target-game successful redemptions for THANKYOU and ILOVEGEARS, rewards and redemption path",
+      "processingStatus": "fields_extracted_current_2026_08_12_activity_open"
+    },
+    {
+      "id": "youtube-codes-report-2",
+      "kind": "community video search result",
+      "url": "https://www.youtube.com/watch?v=xT49YALRaPE",
+      "observedAt": "2026-08-11",
+      "publishedLabelAtObservation": "8 days ago",
+      "use": "second target-game codes record used for identity and topic cross-checking",
+      "processingStatus": "identity_and_topic_cross_checked"
+    },
+    {
+      "id": "reddit-thankyou-report",
+      "kind": "community post",
+      "url": "https://www.reddit.com/r/RobloxCodesUnite/comments/1vejcvp/farm_an_island_codes_for_roblox/",
+      "publishedAt": "2026-08-03",
+      "observedAt": "2026-08-11",
+      "use": "dated external fact: code string THANKYOU",
+      "processingStatus": "string_cross_checked_against_successful_target_game_video"
+    }
+  ]
+}

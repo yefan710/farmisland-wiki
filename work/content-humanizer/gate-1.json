@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "reviewedAt": "2026-08-17T09:50:00+08:00",
+  "inputFingerprint": "sha256:6fa988736e9f6b2043adc7d6e2167e53d1b5276fed15a80e86f98eebb8de4fc9",
+  "humanizer": {
+    "version": "2.9.1",
+    "mode": "embedded",
+    "packageValidation": "pass"
+  },
+  "protectedArtifactTypes": [
+    "raw evidence",
+    "code",
+    "JSON",
+    "Schema",
+    "URL",
+    "numeric fields"
+  ],
+  "checks": {
+    "officialAndExternalClaimsMapped": true,
+    "externalSourcesEligibleWithoutOfficialOnlyGate": true,
+    "externalFactFieldsKeepDatesContextAndOpenFields": true,
+    "competitorExpressionAndStructureReuseBlocked": true,
+    "blockedClaimsExcluded": true,
+    "pageBriefsClosed": true,
+    "numbersPreserved": true,
+    "urlsPreserved": true
+  },
+  "lineEndingNormalization": "LF-only clean checkout; source content equivalence recorded during baseline admission"
+}

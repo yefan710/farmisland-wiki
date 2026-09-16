@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.1",
+  "claims": [
+    {
+      "id": "official_identity",
+      "status": "publish",
+      "sourceIds": [
+        "roblox-game-api",
+        "roblox-experience"
+      ],
+      "text": "Farm an Island is a Roblox Simulation / Tycoon by Boiler Games, place 78769336859161."
+    },
+    {
+      "id": "official_game_loop",
+      "status": "publish",
+      "sourceIds": [
+        "roblox-game-api"
+      ],
+      "text": "Players plant seeds, harvest crops, trade crops at the Bank for cash and buy more land."
+    },
+    {
+      "id": "official_chickens",
+      "status": "publish",
+      "sourceIds": [
+        "roblox-game-api"
+      ],
+      "text": "The official description says chickens help players on their journey."
+    },
+    {
+      "id": "official_updates",
+      "status": "qualified",
+      "sourceIds": [
+        "roblox-game-api"
+      ],
+      "text": "Boiler Games describes the game as receiving regular updates. Roblox lists an Aug 15, 2026 game update timestamp, but the current official source does not provide a dated change log."
+    },
+    {
+      "id": "official_metrics_snapshot",
+      "status": "qualified",
+      "sourceIds": [
+        "roblox-game-api"
+      ],
+      "text": "At the Aug 17, 2026 check, Roblox reported 1,457 current players, 5,055,664 visits and 18,783 favorites."
+    },
+    {
+      "id": "community_codes_exist_report",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-beginner-report",
+        "youtube-codes-report-1",
+        "youtube-codes-report-2"
+      ],
+      "text": "A target-game video published Aug 7, 2026 shows THANKYOU awarding 2 Free Seed Packs and ILOVEGEARS awarding 3 Free Gears through Shop, Exclusive Shop, Codes and Redeem.",
+      "openFields": [
+        "current Aug 12 active or expired result"
+      ]
+    },
+    {
+      "id": "community_thankyou_report",
+      "status": "listed_status_open",
+      "sourceIds": [
+        "reddit-thankyou-report"
+      ],
+      "text": "A Reddit post dated Aug 3, 2026 lists THANKYOU; a target-game video published Aug 7 shows it awarding 2 Free Seed Packs. Current Aug 12 activity remains open.",
+      "openFields": [
+        "current active or expired result"
+      ]
+    },
+    {
+      "id": "community_xl_report",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-xl-report"
+      ],
+      "text": "A target-game video published Jul 25 shows repeated fertilizer use before a Durian card changes to XL Durian. It does not prove a guaranteed method, required count, probability or universal multiplier.",
+      "openFields": [
+        "guaranteed method",
+        "fertilizer count",
+        "probability",
+        "universal multiplier"
+      ]
+    },
+    {
+      "id": "codes_verified_active",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-codes-report-1",
+        "youtube-beginner-report",
+        "youtube-codes-report-2",
+        "reddit-thankyou-report"
+      ],
+      "text": "THANKYOU and ILOVEGEARS worked in a target-game capture published Aug 7, 2026. The result is dated and does not establish current Aug 12 activity."
+    },
+    {
+      "id": "crop_catalog",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-beginner-report",
+        "youtube-xl-report"
+      ],
+      "text": "Dated target-game footage shows Carrot, Tomato, Potato, Bell Pepper and Durian. A complete same-build cost, growth, yield and Bank value table remains unavailable."
+    },
+    {
+      "id": "bank_values",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-beginner-report"
+      ],
+      "text": "The Aug 5 gameplay shows a changing Average Bank deal of 7 with 15 seconds remaining and a later batch transfer result of 513. The crop mix is unknown, so no per-crop formula is claimed."
+    },
+    {
+      "id": "land_prices",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-beginner-report"
+      ],
+      "text": "The Aug 5 gameplay shows early land pad costs of 65, 110 and four simultaneously visible pads at 100, 130, 170 and 220 cash. Permanent plot names and purchase order remain open."
+    },
+    {
+      "id": "chicken_effects_odds",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-beginner-report"
+      ],
+      "text": "The Aug 5 tutorial says a chicken helps harvest crops and shows a Common Chicken card with Power 2x. The multiplier formula, full catalog, costs and probabilities remain open."
+    },
+    {
+      "id": "xl_mechanics",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-xl-report"
+      ],
+      "text": "A Jul 25 target-game demonstration shows fertilizer use before a Durian card changes to XL Durian, with displayed amounts 97.93M before and 489.64M after. Field semantics, probability and a guaranteed method remain open."
+    },
+    {
+      "id": "xl_game_passes",
+      "status": "current_fact",
+      "sourceIds": [
+        "roblox-game-passes-api"
+      ],
+      "text": "On Aug 17, 2026 Roblox listed XL Seed Hunter at 999 Robux and XL Chicken Hunter at 1,499 Robux, both for sale. The pass names do not establish probability or effect formulas."
+    },
+    {
+      "id": "update_details",
+      "status": "blocked",
+      "sourceIds": [],
+      "reason": "No dated official change record in the current source snapshot."
+    }
+  ]
+}

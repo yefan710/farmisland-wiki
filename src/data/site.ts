@@ -1,17 +1,17 @@
 export const site = {
   name: "Farm an Island Wiki",
   gameName: "Farm an Island",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://farmisland.wiki",
   description: "A fan-made Farm an Island wiki with careful code status, a beginner route, and guides to crops, the Bank, land and chickens.",
   developer: "Boiler Games",
   placeId: "78769336859161",
   universeId: "10349044906",
   genre: "Simulation / Tycoon",
   gameUrl: "https://www.roblox.com/games/78769336859161/Farm-an-Island",
-  checkedAt: "2026-08-12T10:22:00+08:00",
-  playing: 2754,
-  favorites: 16638,
-  visits: 4109655,
+  checkedAt: "2026-08-24T10:03:06+08:00",
+  playing: 834,
+  favorites: 20047,
+  visits: 5749660,
   navigation: [
     { href: "/beginner-guide", label: "Beginner guide" },
     { href: "/codes", label: "Codes" },
@@ -77,3 +77,4 @@ export const videoDemos = {
   codes: { videoId: "6uSuiCqsgUg", startAt: 60 },
   xlDurian: { videoId: "Zj7CVlpJmvs", startAt: 0 },
 } as const;
+

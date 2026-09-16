@@ -29,7 +29,7 @@ export default function HomePage() {
             <Link className="button button-quiet" href="/codes">Check code status</Link>
             <a className="button button-quiet" href={site.gameUrl} target="_blank" rel="noreferrer">Play on Roblox</a>
           </div>
-          <div className="hero-proof"><span>Boiler Games</span><span>Place ID {site.placeId}</span><span>Checked Aug 12, 2026</span></div>
+          <div className="hero-proof"><span>Boiler Games</span><span>Place ID {site.placeId}</span><span>Checked Aug 17, 2026</span></div>
         </div>
       </section>
 
@@ -72,7 +72,7 @@ export default function HomePage() {
           </div>
           <div className="feature-grid">
             {gameplayLoop.map((item) => <article className="feature-card" key={item.step}><span>Step {item.step}</span><strong>{item.title}</strong><p>{item.detail}</p></article>)}
-            <article className="feature-card"><span>Official snapshot</span><strong>{site.visits.toLocaleString("en-US")} visits</strong><p>Roblox game data checked Aug 12, 2026. Player and favorite totals can change.</p></article>
+            <article className="feature-card"><span>Official snapshot</span><strong>{site.visits.toLocaleString("en-US")} visits</strong><p>Roblox game data checked Aug 24, 2026. Player and favorite totals can change.</p></article>
           </div>
         </div>
       </section>
@@ -93,3 +93,4 @@ export default function HomePage() {
     </>
   );
 }
+

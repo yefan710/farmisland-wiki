@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "2.0",
+  "game": "Farm an Island",
+  "siteType": "independent player-task wiki",
+  "routes": [
+    {
+      "route": "/",
+      "primaryKeyword": "Farm an Island Roblox",
+      "userPurpose": "Identify the correct game and choose the next useful guide.",
+      "aboveFoldAnswer": "This fan-made wiki covers the Boiler Games experience where players plant, harvest, use a changing Bank deal, buy land and work with chickens.",
+      "nextStep": {"label": "Start the beginner guide", "href": "/beginner-guide"},
+      "requiredClaims": ["official_identity", "official_game_loop", "official_metrics_snapshot"],
+      "blockedClaims": []
+    },
+    {
+      "route": "/codes",
+      "primaryKeyword": "Farm an Island codes",
+      "userPurpose": "See the Farm an Island codes that last worked on Aug 7, their rewards, the Redeem path and a playable walkthrough.",
+      "aboveFoldAnswer": "THANKYOU last awarded 2 Free Seed Packs and ILOVEGEARS last awarded 3 Free Gears on Aug 7, 2026. Codes can expire, so try them in the current game.",
+      "nextStep": {"label": "Start the farm loop", "href": "/beginner-guide"},
+      "requiredClaims": ["community_codes_exist_report", "community_thankyou_report"],
+      "blockedClaims": []
+    },
+    {
+      "route": "/beginner-guide",
+      "primaryKeyword": "Farm an Island guide",
+      "userPurpose": "Complete the first-session loop and choose the next guide for crops, the Bank, land or chickens.",
+      "aboveFoldAnswer": "Plant seeds, harvest crops, check the timed Bank deal, transfer the batch and compare cash with the number on the next land pad.",
+      "nextStep": {"label": "Check seeds and crops", "href": "/seeds-and-crops"},
+      "requiredClaims": ["official_game_loop", "official_chickens", "crop_catalog", "bank_values", "land_prices", "chicken_effects_odds"],
+      "blockedClaims": []
+    },
+    {
+      "route": "/seeds-and-crops",
+      "primaryKeyword": "Farm an Island seeds and crops",
+      "userPurpose": "See the available crop details and watch the XL Durian example without leaving the guide.",
+      "aboveFoldAnswer": "The guide covers Carrot, Tomato, Potato, Bell Pepper and Durian. The XL section plays an example where fertilizer is used before a Durian card changes to XL Durian.",
+      "nextStep": {"label": "See how the Bank fits the loop", "href": "/bank-and-money"},
+      "requiredClaims": ["official_game_loop", "community_xl_report", "crop_catalog", "xl_mechanics", "xl_game_passes"],
+      "blockedClaims": []
+    },
+    {
+      "route": "/bank-and-money",
+      "primaryKeyword": "Farm an Island bank and money",
+      "userPurpose": "Use the Bank transfer correctly and understand why a timed Deal and a batch result do not equal fixed crop prices.",
+      "aboveFoldAnswer": "The Aug 5 footage shows an Average deal of 7 with 15 seconds left and a later batch result of 513; neither establishes a per-crop formula.",
+      "nextStep": {"label": "Plan the next land expansion", "href": "/land-expansion"},
+      "requiredClaims": ["official_game_loop", "bank_values", "crop_catalog"],
+      "blockedClaims": []
+    },
+    {
+      "route": "/land-expansion",
+      "primaryKeyword": "Farm an Island land expansion",
+      "userPurpose": "Compare current cash with early land costs and decide when to expand.",
+      "aboveFoldAnswer": "Early land pads cost 65, 110, 100, 130, 170 and 220 cash when checked on Aug 5, 2026. Check the current pad before buying because the order may change.",
+      "nextStep": {"label": "Understand chickens", "href": "/chickens"},
+      "requiredClaims": ["official_game_loop", "land_prices"],
+      "blockedClaims": []
+    },
+    {
+      "route": "/chickens",
+      "primaryKeyword": "Farm an Island chickens",
+      "userPurpose": "Understand the visible Common Chicken card and decide what is known before buying an XL-related pass.",
+      "aboveFoldAnswer": "The tutorial says a Chicken helps harvest crops and its card shows Common rarity and 2x Power; the multiplier formula and odds remain open.",
+      "nextStep": {"label": "Open the official game", "href": "https://www.roblox.com/games/78769336859161/Farm-an-Island"},
+      "requiredClaims": ["official_chickens", "chicken_effects_odds", "xl_game_passes"],
+      "blockedClaims": []
+    },
+    {
+      "route": "/updates",
+      "primaryKeyword": "Farm an Island updates",
+      "userPurpose": "Know whether a dated official update record is available.",
+      "aboveFoldAnswer": "Boiler Games says the game receives regular updates. This page has no dated change entry until an official record is checked.",
+      "nextStep": {"label": "Check the official experience", "href": "https://www.roblox.com/games/78769336859161/Farm-an-Island"},
+      "requiredClaims": ["official_updates"],
+      "blockedClaims": ["update_details"]
+    },
+    {
+      "route": "/sources",
+      "primaryKeyword": "Farm an Island official links",
+      "userPurpose": "Open the official Roblox experience and understand the dates shown in the guides.",
+      "aboveFoldAnswer": "Use this page to open the official Roblox experience, understand Last worked, Last checked and Not known yet labels, then choose the guide for the task at hand.",
+      "nextStep": {"label": "Check code status", "href": "/codes"},
+      "requiredClaims": ["official_identity"],
+      "blockedClaims": []
+    },
+    {
+      "route": "/about",
+      "primaryKeyword": "about Farm an Island Wiki",
+      "userPurpose": "Understand what this independent player guide covers and where to start.",
+      "aboveFoldAnswer": "This is an independent fan-made guide for the Boiler Games experience Farm an Island.",
+      "nextStep": {"label": "Start the guide", "href": "/beginner-guide"},
+      "requiredClaims": ["official_identity"],
+      "blockedClaims": []
+    },
+    {
+      "route": "/privacy-policy",
+      "primaryKeyword": "Farm an Island Wiki privacy",
+      "userPurpose": "Know what the static fan guide stores and which external links leave the site.",
+      "aboveFoldAnswer": "The current site does not require an account or provide forms that submit player data.",
+      "nextStep": {"label": "Return home", "href": "/"},
+      "requiredClaims": [],
+      "blockedClaims": []
+    },
+    {
+      "route": "/terms",
+      "primaryKeyword": "Farm an Island Wiki terms",
+      "userPurpose": "Understand the limits of a fan guide for a changing Roblox game.",
+      "aboveFoldAnswer": "Use the current Roblox experience as the final check before spending Robux or acting on changing game information.",
+      "nextStep": {"label": "Open game links", "href": "/sources"},
+      "requiredClaims": ["official_identity"],
+      "blockedClaims": []
+    }
+  ]
+}

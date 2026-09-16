@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-12",
+  "checkedAt": "2026-08-17",
   "codes": [
     {
       "code": "THANKYOU",
@@ -14,13 +14,38 @@
       "status": "Try in the current game"
     }
   ],
-  "codeRedemptionPath": ["Shop", "Exclusive Shop", "Codes", "Redeem"],
+  "codeRedemptionPath": [
+    "Shop",
+    "Exclusive Shop",
+    "Codes",
+    "Redeem"
+  ],
   "observedCrops": [
-    { "name": "Carrot", "knownFields": "Planted and harvested during the tutorial", "sourceDate": "2026-08-05" },
-    { "name": "Tomato", "knownFields": "Named and planted during the tutorial", "sourceDate": "2026-08-05" },
-    { "name": "Potato", "knownFields": "Common, Level 1, Normal; card showed 18", "sourceDate": "2026-08-05" },
-    { "name": "Bell Pepper", "knownFields": "A tutorial task asked for a Snow mutation", "sourceDate": "2026-08-05" },
-    { "name": "Durian", "knownFields": "Transcendent, Level 1, Normal in the dated XL demonstration", "sourceDate": "2026-07-25" }
+    {
+      "name": "Carrot",
+      "knownFields": "Planted and harvested during the tutorial",
+      "sourceDate": "2026-08-05"
+    },
+    {
+      "name": "Tomato",
+      "knownFields": "Named and planted during the tutorial",
+      "sourceDate": "2026-08-05"
+    },
+    {
+      "name": "Potato",
+      "knownFields": "Common, Level 1, Normal; card showed 18",
+      "sourceDate": "2026-08-05"
+    },
+    {
+      "name": "Bell Pepper",
+      "knownFields": "A tutorial task asked for a Snow mutation",
+      "sourceDate": "2026-08-05"
+    },
+    {
+      "name": "Durian",
+      "knownFields": "Transcendent, Level 1, Normal in the dated XL demonstration",
+      "sourceDate": "2026-07-25"
+    }
   ],
   "bankExamples": [
     {
@@ -37,9 +62,21 @@
     }
   ],
   "landCosts": [
-    { "label": "Tutorial-highlighted expansion pad", "cost": 65, "sourceDate": "2026-08-05" },
-    { "label": "Adjacent early expansion pad", "cost": 110, "sourceDate": "2026-08-05" },
-    { "label": "Four pads visible together", "cost": "100, 130, 170, 220", "sourceDate": "2026-08-05" }
+    {
+      "label": "Tutorial-highlighted expansion pad",
+      "cost": 65,
+      "sourceDate": "2026-08-05"
+    },
+    {
+      "label": "Adjacent early expansion pad",
+      "cost": 110,
+      "sourceDate": "2026-08-05"
+    },
+    {
+      "label": "Four pads visible together",
+      "cost": "100, 130, 170, 220",
+      "sourceDate": "2026-08-05"
+    }
   ],
   "chicken": {
     "name": "Chicken",
@@ -50,8 +87,18 @@
     "sourceDate": "2026-08-05"
   },
   "gamePasses": [
-    { "name": "XL Seed Hunter", "id": 1885846980, "priceRobux": 999, "isForSale": true },
-    { "name": "XL Chicken Hunter", "id": 1882433093, "priceRobux": 1499, "isForSale": true }
+    {
+      "name": "XL Seed Hunter",
+      "id": 1885846980,
+      "priceRobux": 999,
+      "isForSale": true
+    },
+    {
+      "name": "XL Chicken Hunter",
+      "id": 1882433093,
+      "priceRobux": 1499,
+      "isForSale": true
+    }
   ],
   "xlObservation": {
     "crop": "XL Durian",

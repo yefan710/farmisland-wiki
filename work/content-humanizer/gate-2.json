@@ -1,0 +1,131 @@
+{
+  "status": "pass",
+  "reviewedAt": "2026-08-31T11:53:31+08:00",
+  "contentFingerprint": "sha256:35bbf63c5ddb64cedbf5e290f4c35e4f612e5fc8749f0da63fdf66ebbe05f113",
+  "pagesReviewed": 12,
+  "checks": {
+    "allRoutesReviewed": true,
+    "factsMatchEvidenceInputs": true,
+    "externalSourcePolicyMatchesGate1": true,
+    "datedFactsAndOpenFieldsStayDistinct": true,
+    "unprocessedValuesRemainOpenOrBlocked": true,
+    "competitorExpressionAndStructureReuseAbsent": true,
+    "internalEvidenceNarrationAbsent": true,
+    "playerNextStepsReplaceEvidenceRails": true,
+    "clickToPlayVideoRequiresUserAction": true,
+    "analyticsBehaviorMatchesPrivacyCopy": true,
+    "publicLanguageIsNatural": true,
+    "protectedArtifactsUnchanged": true
+  },
+  "routeAudits": [
+    {
+      "route": "/",
+      "status": "pass",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true
+    },
+    {
+      "route": "/codes",
+      "status": "pass",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true
+    },
+    {
+      "route": "/beginner-guide",
+      "status": "pass",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true
+    },
+    {
+      "route": "/seeds-and-crops",
+      "status": "pass",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true
+    },
+    {
+      "route": "/bank-and-money",
+      "status": "pass",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true
+    },
+    {
+      "route": "/land-expansion",
+      "status": "pass",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true
+    },
+    {
+      "route": "/chickens",
+      "status": "pass",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true
+    },
+    {
+      "route": "/updates",
+      "status": "pass",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true
+    },
+    {
+      "route": "/sources",
+      "status": "pass",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true
+    },
+    {
+      "route": "/about",
+      "status": "pass",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true
+    },
+    {
+      "route": "/privacy-policy",
+      "status": "pass",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true
+    },
+    {
+      "route": "/terms",
+      "status": "pass",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true
+    }
+  ],
+  "lineEndingNormalization": "LF-only clean checkout; source content equivalence recorded during baseline admission"
+}
